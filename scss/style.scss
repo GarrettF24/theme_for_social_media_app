@@ -74,3 +74,15 @@ img {
     text-align: center;
   }
 }
+
+// Profiles Page
+
+.profile {
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  grid-gap: 1.4rem;
+  align-items: center;
+  padding: 10px;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
