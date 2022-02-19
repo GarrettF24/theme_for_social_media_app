@@ -10,7 +10,7 @@ $max-width: 1100px;
 
 // set text color based on background
 @function set-text-color($color) {
-  @if (lightness($color) > 50) {
+  @if (lightness($color) > 60) {
     @return rgb(41, 40, 40);
   } @else {
     @return rgb(235, 232, 232);
