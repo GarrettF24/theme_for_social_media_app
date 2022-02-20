@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7f5dc23496.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Welcome to Social Media App</title>
+</head>
+<body>
+  <div class="navbar bg-dark">
+    <h2>
+      <a class="nav-anchors" href="dashboard.html">
+        <i class="fa-solid fa-users"></i>SocialMedia App
+      </a>
+    </h2>
+    <ul class="nav-links">
+      <li> <a class="nav-anchors" href="profiles.html">People</a></li>
+      <li><a class="nav-anchors" href="posts.html">Posts</a></li>
+      <li>
+        <a class="nav-anchors" href="dashboard.html">
+          <i class="fa-solid fa-user"></i>
+          <span class="hide-sm">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a class="nav-anchors" href="login.html">
+          <i class="fa-solid fa-right-from-bracket"></i>
+          <span class="hide-sm">Sign out</span>
+        </a>
+      </li>
+        
+    </ul>
+  </div>
+  <div class="container">
+    <h1 class="large text-primary">Create Profile</h1>
+      <p class="lead">
+      <i class="fas fa-user"></i> Let's get some information to make your
+        profile stand out
+      </p>
+    <small>* = required field</small>
+  <form class="form">
+    <div class="form-group">
+      <input class="form-inputs" type="text" placeholder="Job" name="job" />
+      <small class="form-text"
+        >Tell everyone what you do</small
+      >
+    </div>
+    <div class="form-group">
+      <input class="form-inputs" type="text" placeholder="Location" name="location" />
+      <small class="form-text"
+        >City & state suggested (eg. Boston, MA)</small
+      >
+    </div>
+    <div class="form-group">
+      <input class="form-inputs" type="text" placeholder="* Hobbies" name="hobbies" />
+      <small class="form-text"
+        >Please use comma separated values (eg.
+        Painting,Photography,Music,Carprentry)</small
+      >
+    </div>
+    <div class="form-group">
+      <textarea class="form-inputs" placeholder="A short bio of yourself" name="bio"></textarea>
+      <small class="form-text">Tell us a little about yourself</small>
+    </div>
+
+    <div class="my-2">
+      <button type="button" class="btn btn-light">
+        Add Social Network Links
+      </button>
+      <span>Optional</span>
+    </div>
+
+    <div class="form-group social-input">
+      <i class="fab fa-twitter fa-2x"></i>
+      <input class="form-inputs" type="text" placeholder="Twitter URL" name="twitter" />
+    </div>
+
+    <div class="form-group social-input">
+      <i class="fab fa-facebook fa-2x"></i>
+      <input class="form-inputs" type="text" placeholder="Facebook URL" name="facebook" />
+    </div>
+
+    <div class="form-group social-input">
+      <i class="fab fa-youtube fa-2x"></i>
+      <input class="form-inputs" type="text" placeholder="YouTube URL" name="youtube" />
+    </div>
+
+    <div class="form-group social-input">
+      <i class="fab fa-linkedin fa-2x"></i>
+      <input class="form-inputs" type="text" placeholder="Linkedin URL" name="linkedin" />
+    </div>
+
+    <div class="form-group social-input">
+      <i class="fab fa-instagram fa-2x"></i>
+      <input class="form-inputs" type="text" placeholder="Instagram URL" name="instagram" />
+    </div>
+    <div class="form-group social-input">
+      <i class="fab fa-snapchat fa-2x"></i>
+      <input class="form-inputs" type="text" placeholder="Snapchat URL" name="snapchat" />
+    </div>
+    <input type="submit" class="btn btn-primary my-1" />
+    <a class="btn btn-light my-1" href="dashboard.html">Go Back</a>
+  </form>
+</body>
+</html>
