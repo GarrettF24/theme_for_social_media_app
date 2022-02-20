@@ -1,6 +1,7 @@
 @import 'config';
 @import 'utils';
 @import 'form';
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -168,3 +169,4 @@ img {
     width: 150px;
   }
 }
+@import 'mobile';
